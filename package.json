@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-afk-web",
+  "version": "1.0.0",
+  "description": "Web-controlled Minecraft AFK Bot using Express and Mineflayer",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "minecraft",
+    "afk",
+    "bot",
+    "mineflayer",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
